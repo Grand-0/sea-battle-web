@@ -1,25 +1,32 @@
 {
+  "author": "Grand_zero",
   "name": "sea-battle-web",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "modules/*"
   ],
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
+    "dev": "turbo run dev --no-daemon",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.7.0",
+    "vite": "^4.1.3"
+  },
   "devDependencies": {
-    "eslint-config-custom": "*",
+    "@types/react": "^18.0.28",
     "prettier": "latest",
-    "turbo": "latest"
+    "sass": "^1.58.3",
+    "turbo": "latest",
+    "typescript": "^4.9.5"
   },
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
   "packageManager": "npm@8.19.3"
 }

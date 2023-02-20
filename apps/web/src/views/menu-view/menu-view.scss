@@ -1,0 +1,17 @@
+div.menuContainer {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    & > div.menuContainer_preViewBattleShip {
+        width: 70%;
+        background-color: red;
+    }
+
+    & > div.menuContainer_menuBar {
+        width: 30%;
+        background-color: gray;
+    }
+}

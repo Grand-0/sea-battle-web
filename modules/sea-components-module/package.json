@@ -1,0 +1,12 @@
+{
+    "name": "sea-components-module",
+    "version": "0.0.0",
+    "private": true,
+    "main": "module-export.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "sea-icons-module": "*"
+    }
+}

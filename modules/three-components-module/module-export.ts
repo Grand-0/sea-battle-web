@@ -1,0 +1,1 @@
+export * as ThreeComponentsModule from "./module-preexport";

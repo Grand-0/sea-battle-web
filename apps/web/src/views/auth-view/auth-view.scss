@@ -1,0 +1,93 @@
+.mainContainer {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #2a6fdb;
+
+    & > .mainContainer_content {
+        height: calc(100% - 150px);
+        width: calc(100% - 500px);
+
+        display: flex;
+
+        & > .mainContainer_content_loginContainer {
+            height: calc(100% - 40px);
+            width: calc(40% - 128px);
+
+            padding-top: 40px;
+            padding-left: 64px;
+            padding-right: 64px;
+
+            background-color: #FFFFFF;
+
+            border-radius: 25px 0 0 25px;
+
+            & > .mainContainer_content_loginContainer_logoFrame {
+                display: flex;
+
+                & > img {
+                    height: 45px;
+                    width: 45px;
+                    pointer-events: none;
+                }
+
+                & > h2 {
+                    margin-left: 20px;
+                    color: #2a6fdb;
+                }
+            }
+
+            & > h2.mainContainer_content_loginContainer_info {
+                color: #2a6fdb;
+            }
+
+            & > h4.mainContainer_content_loginContainer_subInfo {
+                color: #2a6fdb;
+            }
+
+            & > div.mainContainer_content_loginContainer_rememberContainer {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+
+                & > a {
+                    color: #2a6fdb;
+                }
+            }
+
+            & > div.mainContainer_content_loginContainer_buttonGroup {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 24px;
+            }
+
+            & > div.mainContainer_content_loginContainer_creditals {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 56px;
+            }
+        }
+
+        & > .mainContainer_content_illustrationContainer {
+            height: 100%;
+            width: 60%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-color: #fefcbf;
+
+            border-radius: 0 25px 25px 0;
+
+            & > img {
+                height: 500px;
+                width: 500px;
+                pointer-events: none;
+            }
+        }
+    }
+}

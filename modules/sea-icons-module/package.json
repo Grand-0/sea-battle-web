@@ -1,0 +1,11 @@
+{
+    "name": "sea-icons-module",
+    "version": "0.0.0",
+    "main": "module-export.ts",
+    "devDependencies": {
+      "@svgr/cli": "^6.1.2"
+    },
+    "scripts": {
+      "svgr": "svgr --typescript --icon --title-prop -d icons -- assets"
+    }
+}

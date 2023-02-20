@@ -1,0 +1,15 @@
+{
+    "name": "three-components-module",
+    "version": "0.0.0",
+    "private": true,
+    "main": "module-export.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@react-three/drei": "^9.54.0",
+        "@react-three/fiber": "^8.10.1",
+        "@types/three": "^0.148.0",
+        "three": "^0.148.0"
+    }
+}
