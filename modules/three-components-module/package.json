@@ -2,7 +2,7 @@
     "name": "three-components-module",
     "version": "0.0.0",
     "private": true,
-    "main": "module-export.ts",
+    "main": "src/module-export.ts",
     "scripts": {
         "build": "tsc"
     },

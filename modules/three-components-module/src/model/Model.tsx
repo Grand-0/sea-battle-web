@@ -15,8 +15,6 @@ export function Model({ modelUrl }: ModelProps) {
 
     const temp = nodes.ship_model as any;
 
-    console.log(nodes);
-
     return (
         <group ref={group} dispose={null}>
             <mesh

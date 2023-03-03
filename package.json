@@ -9,10 +9,11 @@
   ],
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev --no-daemon",
+    "dev": "turbo run dev --no-daemon --parallel --no-cache",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.7.0",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
     "prettier": "latest",
     "sass": "^1.58.3",
     "turbo": "latest",
