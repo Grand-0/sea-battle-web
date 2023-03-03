@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "dev": "vite",
+        "dev": "vite --config ../../config/vite.config.ts --port 3001",
         "build": "vite build"
     },
     "dependencies": {
