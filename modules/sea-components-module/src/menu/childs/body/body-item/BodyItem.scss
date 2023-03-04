@@ -1,0 +1,39 @@
+div.menuContainer_menuBar_bodyContainer_bodyItem {
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 2px solid rgb(72, 214, 210);
+    border-radius: 7px;
+
+    margin: 10px 0;
+    color: rgb(72, 214, 210);
+
+    & > h4 {
+        margin: 12px;
+        cursor: context-menu;
+    }
+}
+
+div.menuContainer_menuBar_bodyContainer_bodyItem:hover {
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(72, 214, 210);
+    border: 2px solid #FFFFFF;
+    border-radius: 7px;
+
+    margin: 10px 0;
+    color: #FFFFFF;
+
+    & > h4 {
+        margin: 12px;
+        cursor: context-menu;
+    }
+}
