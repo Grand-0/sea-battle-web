@@ -6,12 +6,8 @@ div.menuContainer {
     justify-content: space-between;
 
     & > div.menuContainer_preViewBattleShip {
-        width: 70%;
+        width: 100%;
         background-color: red;
-    }
-
-    & > div.menuContainer_menuBar {
-        width: 30%;
-        background-color: gray;
+        position: relative;
     }
 }

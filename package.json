@@ -8,8 +8,8 @@
     "modules/*"
   ],
   "scripts": {
-    "build": "turbo run build",
     "dev": "turbo run dev --no-daemon --parallel --no-cache",
+    "build": "turbo run build",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "dependencies": {

@@ -21,7 +21,7 @@ export function Scene({ modelUrl }: SceneProps) {
             <Suspense fallback={null}>
                 <Model modelUrl={modelUrl} />
                 <OrbitControls />
-                <Environment preset="sunset" background />
+                <Environment preset="dawn" background />
             </Suspense>
         </Canvas>
     );
