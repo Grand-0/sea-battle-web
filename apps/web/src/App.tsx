@@ -1,8 +1,9 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { AuthView } from "./views/auth-view/auth-view";
-import { ErrorRouteView } from "./views/error-route-view/error-route-view";
-import { MenuView } from "./views/menu-view/menu-view";
+import { AuthView } from "./views/auth-view/AuthView";
+import { ErrorRouteView } from "./views/error-route-view/ErrorRouteView";
+import { MenuView } from "./views/menu-view/MenuView";
+import { GameView } from "sea-game-module";
 
 const router = createBrowserRouter([
     {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
     {
         path: "/menu",
         element: <MenuView />,
+    },
+    {
+        path: "/game",
+        element: <GameView />,
     },
 ]);
 

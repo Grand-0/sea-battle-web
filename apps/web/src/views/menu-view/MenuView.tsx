@@ -1,13 +1,12 @@
 import React from "react";
 import { ThreeComponentsModule } from "three-components-module";
-import "./menu-view.scss";
+import "./MenuView.scss";
 
 import { SeaComponentsModule } from "sea-components-module";
 
 //TODO: мб данный импорт требует шортката???
 export function MenuView() {
     const modelUrl = "/temp.glb";
-    const enviromentFile = "/sky.jpg";
     return (
         <div className="menuContainer">
             <div className="menuContainer_preViewBattleShip">

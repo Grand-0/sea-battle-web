@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./auth-view.scss";
+import "./AuthView.scss";
 
 import logo from "../../../public/shipBoat.svg";
 import logogo from "../../../public/shipJapan.svg";

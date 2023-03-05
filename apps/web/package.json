@@ -8,6 +8,7 @@
     },
     "dependencies": {
         "sea-components-module": "*",
-        "three-components-module": "*"
+        "three-components-module": "*",
+        "sea-game-module": "*"
     }
 }

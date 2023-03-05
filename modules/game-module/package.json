@@ -1,0 +1,9 @@
+{
+    "name": "sea-game-module",
+    "version": "0.0.0",
+    "private": true,
+    "main": "src/module-export.ts",
+    "scripts": {
+        "build": "tsc"
+    }
+}
